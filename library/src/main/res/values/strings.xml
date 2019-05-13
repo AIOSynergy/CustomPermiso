@@ -35,4 +35,5 @@
     <string name="permission_rationale_feature_save_media_to_storage">Save Media to Storage</string>
     <string name="permission_rationale_feature_open_media_from_storage">Open Media from Storage</string>
     <string name="permission_rationale_feature_show_nearby_deals">Show Nearby Deals</string>
+    <string name="permission_rationale_feature_whiteboard_call">Whiteboard Call</string>
 </resources>

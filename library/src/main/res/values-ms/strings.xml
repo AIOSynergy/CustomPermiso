@@ -42,5 +42,6 @@
     <string name="permission_rationale_feature_voice_messaging">Hantar Mesej Suara</string>
     <string name="permission_rationale_general">Kebenaran diperlukan untuk mengakses fungsi telefon berikut:\n</string>
     <string name="permission_rationale_general_part2">untuk menggunakan ciri berikut:\n</string>
+    <string name="permission_rationale_feature_whiteboard_call">Panggilan Papan Putih</string>
 
 </resources>

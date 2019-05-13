@@ -110,6 +110,12 @@ public class CustomPermisoUtil {
         getPermission(context, listener, rationaleStringResourceArrayList, Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE);
     }
 
+    public static void getPermissionWhiteboardCall(final Context context, final PermissionListener listener) {
+        ArrayList<Integer> rationaleStringResourceArrayList = new ArrayList<>();
+        rationaleStringResourceArrayList.add(R.string.permission_rationale_feature_whiteboard_call);
+        getPermission(context, listener, rationaleStringResourceArrayList, Manifest.permission.RECORD_AUDIO);
+    }
+
     private static boolean lackOfCameraPermission(Context context, String... permissions) {
         if (permissions != null && permissions.length > 0) {
             String[] arrayPermissions = permissions.clone();

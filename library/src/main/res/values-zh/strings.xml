@@ -35,5 +35,6 @@
     <string name="permission_rationale_feature_save_media_to_storage">用电话存储保存媒体</string>
     <string name="permission_rationale_feature_open_media_from_storage">用电话存储读取媒体</string>
     <string name="permission_rationale_feature_show_nearby_deals">显示附近促销</string>
+    <string name="permission_rationale_feature_whiteboard_call">白板演示</string>
 
 </resources>
