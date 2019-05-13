@@ -1,0 +1,38 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+
+    <!-- permission -->
+    <string name="permission_main_activity_storage_explanation">To improve app performance, important media sent by friends will be saved into phone.</string>
+    <string name="permission_four_spaces">\u0020\u0020\u0020\u0020</string>
+    <string name="permission_group_calendar">Calendar</string>
+    <string name="permission_group_camera">Camera</string>
+    <string name="permission_group_contacts">Contacts</string>
+    <string name="permission_group_location">Location</string>
+    <string name="permission_group_microphone">Microphone</string>
+    <string name="permission_group_phone">Phone</string>
+    <string name="permission_group_sensors">Sensors</string>
+    <string name="permission_group_sms">SMS</string>
+    <string name="permission_group_storage">Storage</string>
+    <string name="permission_rationale_general">Permission is required to access the following phone function(s):\n</string>
+    <string name="permission_rationale_general_part2">to use the following feature(s):\n</string>
+    <string name="permission_denied_general">App has no access to one or more of the following phone function(s):\n</string>
+    <string name="permission_denied_general_part2">\nAffected feature(s):\n</string>
+    <string name="permission_denied_general_instructions">\nThe app permissions can be configured in phone Settings.</string>
+    <string name="permission_rationale_feature_auto_fill_area_code">Auto Fill Area Code</string>
+    <string name="permission_rationale_feature_voice_messaging">Send Voice Messages</string>
+    <string name="permission_rationale_feature_scan_qr_code">Scan QR Code</string>
+    <string name="permission_rationale_feature_pick_picture">Select Picture from Storage</string>
+    <string name="permission_rationale_feature_pick_video">Select Video from Storage</string>
+    <string name="permission_rationale_feature_take_picture">Take Picture with Camera</string>
+    <string name="permission_rationale_feature_take_video">Record Video with Camera</string>
+    <string name="permission_rationale_feature_voice_call">Voice Call</string>
+    <string name="permission_rationale_feature_video_call">Video Call</string>
+    <string name="permission_rationale_feature_share_location">Share Location</string>
+    <string name="permission_rationale_feature_locate_user">Locate User</string>
+    <string name="permission_rationale_feature_recommend_new_friends">Recommend New Friends from Contacts</string>
+    <string name="permission_rationale_feature_read_from_the_contacts">Read from the contacts</string>
+    <string name="permission_rationale_feature_save_media_to_storage">Save Media to Storage</string>
+    <string name="permission_rationale_feature_open_media_from_storage">Open Media from Storage</string>
+    <string name="permission_rationale_feature_show_nearby_deals">Show Nearby Deals</string>
+</resources>

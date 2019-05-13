@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="settings">Tetapan</string>
+
+    <!-- permission -->
+    <string name="permission_four_spaces">\u0020\u0020\u0020\u0020</string>
+    <string name="permission_denied_general">App tidak mempunyai akses kepada satu atau lebih fungsi telefon
+        berikut:\n
+    </string>
+    <string name="permission_denied_general_instructions">\nKebenaran app boleh dikonfigurasikan dalam Tetapan
+        telefon.
+    </string>
+    <string name="permission_denied_general_part2">\nCiri yang terjejas:\n</string>
+    <string name="permission_group_calendar">Kalendar</string>
+    <string name="permission_group_camera">Kamera</string>
+    <string name="permission_group_contacts">Kenalan</string>
+    <string name="permission_group_location">Lokasi</string>
+    <string name="permission_group_microphone">Mikrofon</string>
+    <string name="permission_group_phone">Telefon</string>
+    <string name="permission_group_sensors">Sensor</string>
+    <string name="permission_group_sms">SMS</string>
+    <string name="permission_group_storage">Storage</string>
+    <string name="permission_main_activity_storage_explanation">Untuk meningkatkan prestasi aplikasi, media penting yang
+        dihantar oleh rakan akan disimpan ke dalam telefon.
+    </string>
+    <string name="permission_rationale_feature_auto_fill_area_code">Auto Isikan Kod Kawasan</string>
+    <string name="permission_rationale_feature_locate_user">Cari pengguna</string>
+    <string name="permission_rationale_feature_pick_picture">Pilih Gambar dari Storage</string>
+    <string name="permission_rationale_feature_pick_video">Pilih Video daripada Storage</string>
+    <string name="permission_rationale_feature_recommend_new_friends">Mengesyorkan Rakan Baru dari Kenalan</string>
+    <string name="permission_rationale_feature_read_from_the_contacts">Baca dari kenalan</string>
+    <string name="permission_rationale_feature_save_media_to_storage">Simpan Media ke Storage</string>
+    <string name="permission_rationale_feature_open_media_from_storage">Baca Media dari Storage</string>
+    <string name="permission_rationale_feature_scan_qr_code">Mengimbas Kod QR</string>
+    <string name="permission_rationale_feature_share_location">Kongsi Lokasi</string>
+    <string name="permission_rationale_feature_show_nearby_deals">Tunjuk Tawaran Berdekatan</string>
+    <string name="permission_rationale_feature_take_picture">Mengambil gambar dengan kamera</string>
+    <string name="permission_rationale_feature_take_video">Video rekod dengan kamera</string>
+    <string name="permission_rationale_feature_video_call">Panggilan Video</string>
+    <string name="permission_rationale_feature_voice_call">Panggilan Suara</string>
+    <string name="permission_rationale_feature_voice_messaging">Hantar Mesej Suara</string>
+    <string name="permission_rationale_general">Kebenaran diperlukan untuk mengakses fungsi telefon berikut:\n</string>
+    <string name="permission_rationale_general_part2">untuk menggunakan ciri berikut:\n</string>
+
+</resources>
