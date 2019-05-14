@@ -206,6 +206,7 @@ public class CustomPermisoUtil {
                                 }
                                 alertDialog.getWindow().setType(LAYOUT_FLAG);
                                 alertDialog.show();
+
                             } catch (Exception ex) {
                                 ex.fillInStackTrace();
                                 listener.onPermissionDenied();
