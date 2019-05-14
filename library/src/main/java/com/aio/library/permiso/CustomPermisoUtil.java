@@ -5,6 +5,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.os.Build;
+import android.view.WindowManager;
 import com.aio.library.R;
 import com.aio.library.camera.CameraUtils;
 import com.aio.library.sound.SoundUtil;
@@ -193,9 +195,17 @@ public class CustomPermisoUtil {
                                 });
                             }
                             try {
-                                builder.setMessage(strDialogMessage)
-                                        .create()
-                                        .show();
+                                AlertDialog alertDialog = builder.setMessage(strDialogMessage)
+                                        .create();
+
+                                int LAYOUT_FLAG;
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                    LAYOUT_FLAG = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
+                                } else {
+                                    LAYOUT_FLAG = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
+                                }
+                                alertDialog.getWindow().setType(LAYOUT_FLAG);
+                                alertDialog.show();
                             } catch (Exception ex) {
                                 ex.fillInStackTrace();
                                 listener.onPermissionDenied();

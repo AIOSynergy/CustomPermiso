@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.greysonparrelli.permiso:permiso:0.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b14cae173e01daf7ca5c8ad825b504b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b14cae173e01daf7ca5c8ad825b504b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.greysonparrelli.permiso/permiso/0.3.0/8f68865c96c502060382aba6dd3e3446592e824c/permiso-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
